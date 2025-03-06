@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(255, 0, 0);
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 800px;
+    text-align: center;
+   
+}
+li a{
+    text-decoration: none;
+  padding: 20px;
+ font-size: 15px;
+ color: white;
+}
+.heading{
+width: 200px;
+   
+}
+.end-nav{
+    width: 400px;
+ 
+    text-align: end;
+}
+.mid-nav{
+    text-align: center;
+
+}
+.header-input{
+    padding: 5px;
+   border-radius: 5px;
+    font-size: 19px;
+}
+.header-btn{
+    background-color: red;
+    color: white;
+    margin-left: -5px;
+}
+
+.left-section{
+    margin: 60px;
+    padding-top: 200px;
+    width: 60%;
+    float: left;
+}
+strong{
+    color: red;
+}
+.left-section h1{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.left-section p{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.left-section button{
+   padding: 10px;
+   width: 150px;
+   background-color: red;
+   font-size: 19px;
+   margin: 10px 0px;
+   border-radius: 5px;
+}
+.right-section{
+    float: left;
+    margin: 60px;
+    margin-top: 200px;
+    background-color: grey;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+.right-section-btn{
+    background-color: red;
+    padding: 10px;
+    width: 150px;
+    font-size: 19px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.form-input{
+    padding: 6px;
+    width: 230px;
+    margin: 7px;
+}
+section p,a{
+    margin: 10px;
+}
+section a{
+    text-decoration: none;
+    color:red;
+    font-weight: 700;
+}
+
+@media (max-width:600px) {
+    .left-section, .right-section{
+        width: 100%;
+      text-align: center;
+    }
+    .right-section
+    {
+        margin-top: 10px;
+   
+    }
+}
